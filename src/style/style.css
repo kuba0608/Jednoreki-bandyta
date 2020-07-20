@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -14,8 +16,6 @@ body {
     font-family: 'open sans', roboto, sans-serif;
 }
 
-
-
 h1 {
     text-align: center;
     text-transform: uppercase;
@@ -29,7 +29,6 @@ h1 {
 .game {
     display: flex;
     margin-bottom: 3vh;
-
 }
 
 .game div {
@@ -68,7 +67,6 @@ h1 {
     letter-spacing: 6px;
     font-family: 'Ranchers', cursive;
     margin-left: 5px;
-    /* margin-top: 10px; */
 }
 
 .panel {
@@ -88,7 +86,6 @@ h1 {
 .panel span,
 .score span {
     font-weight: bold;
-
 }
 
 @media (max-width: 1024px) {
@@ -129,6 +126,4 @@ h1 {
     .score span {
         color: yellow;
     }
-
-
 }

@@ -1,4 +1,4 @@
-class Draw {
+export default class Draw {
     constructor() {
         this.options = ['red', 'green', 'blue'];
         let _result = this.drawResult();
@@ -15,7 +15,4 @@ class Draw {
         }
         return colors;
     }
-
 }
-
-const draw = new Draw();
