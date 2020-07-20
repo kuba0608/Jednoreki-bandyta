@@ -32,6 +32,7 @@ class Game {
     }
 
     startGame() {
+
         if (this.inputBid.value < 1) return alert('kwota, którą chcesz grać jest za mała');
         const bid = Math.floor(this.inputBid.value);
 
