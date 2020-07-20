@@ -5,8 +5,11 @@ class Result {
     }
 
     static checkWinner(draw) {
-        if (draw[0] === draw[1] && draw[1] === draw[2] || draw[0] !== draw[1] && draw[0] !== draw[2] && draw[1] !== draw[2]) return true;
+        if (
+            (draw[0] === draw[1] && draw[1] === draw[2]) ||
+            (draw[0] !== draw[1] && draw[0] !== draw[2] && draw[1] !== draw[2])
+        )
+            return true;
         else return false;
     }
-
 }
