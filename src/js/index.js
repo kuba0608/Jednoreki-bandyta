@@ -1,3 +1,5 @@
+import Game from './game.js';
+
 alert(
     `
 Zasady gry: 
@@ -7,4 +9,5 @@ Zasady gry:
 Udanej zabawy :-)    
 `,
 );
-const game = new Game(200);
+
+new Game(200);

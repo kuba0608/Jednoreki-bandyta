@@ -1,4 +1,4 @@
-class Result {
+export default class Result {
     static MoneyWinInGame(result, bid) {
         if (result) return bid * 3;
         else return 0;

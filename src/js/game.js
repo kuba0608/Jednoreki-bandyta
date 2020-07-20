@@ -1,4 +1,9 @@
-class Game {
+import Statistics from './statistics.js';
+import Wallet from './wallet.js';
+import Draw from './draw.js';
+import Result from './result.js';
+
+export default class Game {
     constructor(start) {
         this.stats = new Statistics();
         this.wallet = new Wallet(start);

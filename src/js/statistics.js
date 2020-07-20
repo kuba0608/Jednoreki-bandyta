@@ -1,4 +1,4 @@
-class Statistics {
+export default class Statistics {
     constructor() {
         this.gameResults = [];
     }
@@ -19,5 +19,3 @@ class Statistics {
         return [games, wins, loses];
     }
 }
-
-const stats = new Statistics();

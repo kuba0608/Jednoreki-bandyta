@@ -1,4 +1,4 @@
-class Wallet {
+export default class Wallet {
     constructor(money) {
         let _money = money;
         this.getWalletValue = () => _money;
@@ -24,5 +24,3 @@ class Wallet {
         };
     }
 }
-
-// const wallet = new Wallet(200);
